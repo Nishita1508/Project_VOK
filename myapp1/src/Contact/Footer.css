@@ -1,0 +1,98 @@
+.footer-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.stay-connected {
+  margin-bottom: 20px;
+}
+
+.stay-connected h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #ff4500; /* Instagram and YouTube Orange */
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.info-block {
+  margin: 0 30px;
+  text-align: left;
+}
+
+.info-block h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.footer-bottom p strong {
+  font-size: 1.2rem;
+  color: #a58b4f; /* Custom gold color */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-info {
+      flex-direction: column; /* Stack the info blocks vertically */
+      align-items: center;
+  }
+
+  .info-block {
+      margin: 15px 0; /* Add vertical spacing between blocks */
+      text-align: center; /* Center align text for smaller screens */
+  }
+
+  .stay-connected h3 {
+      font-size: 1.3rem;
+  }
+
+  .social-icons a {
+      font-size: 1.3rem;
+  }
+
+  .footer-bottom p strong {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stay-connected h3 {
+      font-size: 1.2rem;
+  }
+
+  .info-block h4 {
+      font-size: 1rem;
+  }
+
+  .social-icons a {
+      font-size: 1.2rem;
+      margin: 0 5px;
+  }
+
+  .footer-bottom p strong {
+      font-size: 1rem;
+  }
+}
