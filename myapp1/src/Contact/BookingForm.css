@@ -1,0 +1,85 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="url"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    width: 48%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-back {
+    background-color: #f44336;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

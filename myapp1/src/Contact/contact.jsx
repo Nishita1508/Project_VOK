@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css'; // Import the CSS file for styling
-
+import ContactHero from './Hero';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -21,6 +21,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
+      
       <div className="left">
         <h2>Get In Touch</h2>
         <p>Connect, collaborate, book or simply to say hello. Reach out to us today!</p>
